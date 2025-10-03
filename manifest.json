@@ -10,7 +10,7 @@
 		"128": "images/icon.png"
 	},
 	"background": {
-		"service_worker": "background.js"
+		"service_worker": "script.js"
 	},
 	"permissions": ["activeTab", "scripting"]
 
