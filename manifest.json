@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "HYPR_RME",
-	"description": "Lorem Ipsum",
+	"description": "Automate APM",
 	"version": "1.0",
 	"icons": {
 		"16": "images/icon.png",
@@ -17,6 +17,14 @@
     		"http://*/*",
 	    	"https://*/*"
   	],
-	"action":{}
+	"action":{},
+	  "commands": {
+    		"_execute_action": {
+      		"suggested_key": {
+        	"default": "Ctrl+B",
+        	"mac": "Command+B"
+      }
+    }
+  }
 
 }
