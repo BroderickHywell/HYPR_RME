@@ -17,7 +17,9 @@
     		"http://*/*",
 	    	"https://*/*"
   	],
-	"action":{},
+	"action":{
+		"default_popup": "popup.html"
+	},
 	  "commands": {
     		"_execute_action": {
       		"suggested_key": {
