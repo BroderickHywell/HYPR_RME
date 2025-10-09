@@ -1,5 +1,5 @@
 body {
-  width: 20rem;
+  width: 40rem;
   background-color: orange;
 }
 
@@ -27,10 +27,18 @@ p {
 
 userform{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	border: 5px solid white;
+	justify-content: space-around;
 }
 
 input{
 	margin: 10px;
+	width: 20rem;
+}
+
+mainform{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
