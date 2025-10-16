@@ -1,6 +1,26 @@
+* {
+	color: orange; /* Base color of the text */
+	font-family: monospace;
+        text-align: center;
+        text-shadow: 
+        0 0 1px orange,  /* First shadow: slight blur, same color as text */
+        0 0 3px orange, /* Second shadow: larger blur, glow color */
+        0 0 5px orange; /* Third shadow: even larger blur, same glow color */
+}
+
 body {
   width: 40rem;
-  background-color: orange;
+  background-color: black;
+  color: orange;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    mask-image: linear-gradient(to bottom, #0005 50%, #000 50%);
+    mask-size: 100% 2px;
+    text-shadow: 0 0 0.5rem;
 }
 
 ul {
@@ -10,13 +30,7 @@ ul {
 }
 
 li {
-  padding: 0.25rem;
-}
-li:nth-child(odd) {
-  background: #80808030;
-}
-li:nth-child(even) {
-  background: #ffffff;
+	padding: 0.25rem;
 }
 
 h3,
@@ -28,12 +42,24 @@ p {
 userform{
 	display: flex;
 	flex-direction: row;
-	border: 5px solid white;
+	border: 3px solid orange;
+	box-shadow: 0 0 10px 0.5px orange;
 	justify-content: space-around;
+	margin: 0.25rem;
+}
+
+h2{
+	justify-self: left;
+	display: flex;
 }
 
 input{
+	padding: 0.25rem;
+	0 0 2px orange,  /* First shadow: slight blur, same color as text */
+        0 0 5px white, /* Second shadow: larger blur, glow color */
+	0 0 8px white; /* Third shadow: even larger blur, same glow color */
 	margin: 10px;
+	background-color: black;
 	width: 20rem;
 }
 
@@ -41,4 +67,18 @@ mainform{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+retroeffect{
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    mask-image: linear-gradient(to bottom, #0005 50%, #000 50%);
+    mask-size: 100% 2px;
+    text-shadow: 0 0 0.5rem;
 }
