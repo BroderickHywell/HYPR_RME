@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 40rem;
+  width: 58rem;
   background-color: black;
   color: #ff6a00;
     display: grid;
@@ -47,7 +47,6 @@ userform{
 	border: 3px solid #ff6a00;
 	box-shadow: 0 0 10px 0.5px #ff6a00;
 	justify-content: space-around;
-	margin: 0.05rem;
 }
 
 h2{
