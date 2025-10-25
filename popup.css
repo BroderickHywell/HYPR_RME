@@ -1,17 +1,17 @@
 * {
-	color: #ff6a00; /* Base color of the text */
+	color: #f3613a; /* Base color of the text */
 	font-family: monospace;
         text-align: center;
         text-shadow: 
-        0 0 1px #ff6a00,  /* First shadow: slight blur, same color as text */
-        0 0 3px #ff6a00, /* Second shadow: larger blur, glow color */
-        0 0 5px #ff6a00; /* Third shadow: even larger blur, same glow color */
+        0 0 1px #f3613a,  /* First shadow: slight blur, same color as text */
+        0 0 3px #f3613a, /* Second shadow: larger blur, glow color */
+        0 0 5px #f3613a; /* Third shadow: even larger blur, same glow color */
 }
 
 body {
   width: 58rem;
   background-color: black;
-  color: #ff6a00;
+  color: #f3613a;
     display: grid;
     grid-template-rows: auto 1fr auto;
     overflow: hidden;
@@ -44,8 +44,8 @@ p {
 userform{
 	display: flex;
 	flex-direction: row;
-	border: 3px solid #ff6a00;
-	box-shadow: 0 0 10px 0.5px #ff6a00;
+	border: 3px solid #f3613a;
+	box-shadow: 0 0 10px 0.5px #f3613a;
 	justify-content: space-around;
 }
 
@@ -55,9 +55,9 @@ h2{
 }
 
 input{
-	border: 0.5px solid #ff6a00;
+	border: 0.5px solid #f3613a;
 	padding: 0.25rem;
-	0 0 2px #ff6a00,  /* First shadow: slight blur, same color as text */
+	0 0 2px #f3613a,  /* First shadow: slight blur, same color as text */
         0 0 5px white, /* Second shadow: larger blur, glow color */
 	0 0 8px white; /* Third shadow: even larger blur, same glow color */
 	margin: 10px;
@@ -65,14 +65,14 @@ input{
 	width: 20rem;
 }
 ::placeholder{
-	color: #ff6a00;
+	color: #f3613a;
 }
 
 mainform{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border: 3px solid #ff6a00;
+	border: 3px solid #f3613a;
 	margin: 1rem;
 }
 
@@ -105,3 +105,12 @@ retroeffect{
     animation: crtAnimation 100s linear infinite;
     background-size: 100% 80%;
 }
+
+/*
+RETROFUTURISM COLOR PALLET
+#f3613a   -orange
+#efb737   -yellow
+#eace8d   -off white
+#833834   -brown-red
+
+*/
