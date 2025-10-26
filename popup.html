@@ -7,34 +7,26 @@
     <link rel="stylesheet" href="./popup.css" />
   </head>
   <body class="old-crt-monitor">
-    <template id="li_template">
-      <li>
-        <a>
-          <h3 class="title">Tab Title</h3>
-          <p class="pathname">Tab Pathname</p>
-        </a>
-      </li>
-    </template>
 
-    <userform>
-    	<mainform>
-	<form>
-		<h1>HYPER_RME</h1>
-		<input placeholder="MACHINE"></input>
-		<input placeholder="WORK ORDER TYPE"></input>
-		<input placeholder="PROBLEM CODE"></input>
-		<input placeholder="DOWNTIME"></input>
-		<input placeholder="USERNAME"></input>
-		<input placeholder="CLOSING COMMENTS"></input>
-	</form>
-	</mainform>
+    <form>
+      <mainform>
+        <h1>HYPR_RME</h1>
+        <input placeholder="MACHINE"></input>
+        <input placeholder="WORK ORDER TYPE"></input>
+        <input placeholder="PROBLEM CODE"></input>
+        <input placeholder="DOWNTIME"></input>
+        <input placeholder="USERNAME"></input>
+        <input placeholder="CLOSING COMMENTS"></input>
+	    </mainform>
 	<guide>
 		<h1>COMMAND GUIDE</h1>
-		<li>thing 1</li>
-		<li>thing 2</li>
+		<machines>
+      <h2>MACHINES</h2>
+      <span>dft</span>
+    </machines>
 	</guide>
-	<p>HOWELL LABORATORIES</p>
-    </userform>
+	<h1 id="company-h1">HOWELL LABORATORIES</h1>
+    </form>
        <ul></ul>
 
     <script src="./popup.js" type="module"></script>

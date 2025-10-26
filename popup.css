@@ -8,10 +8,6 @@
         0 0 5px #f3613a; /* Third shadow: even larger blur, same glow color */
 }
 
-form{
-	diksplay: none;
-}
-
 body {
   width: 58rem;
   background-color: black;
@@ -45,7 +41,28 @@ p {
   font-style: italic;
 }
 
-userform{
+guide {
+  border: 2px solid #f3613a;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#company-h1{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  align-self: flex-end;
+}
+
+machines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #f3613a;
+}
+
+form{
 	display: flex;
 	flex-direction: row;
 	border: 3px solid #f3613a;
@@ -78,6 +95,7 @@ mainform{
 	justify-content: space-around;
 	border: 3px solid #f3613a;
 	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 retroeffect{
