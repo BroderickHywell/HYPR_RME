@@ -44,7 +44,23 @@ p {
 guide {
   border: 2px solid #f3613a;
   margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
+}
+
+.section-title{
+  font-size: 30px;
+}
+
+.box-defaults{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #f3613a;
+  margin-bottom: 5em;
 }
 
 #company-h1{
@@ -53,13 +69,15 @@ guide {
   font-size: 2rem;
   display: flex;
   align-self: flex-end;
+  justify-self: right;
 }
 
-machines {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid #f3613a;
+span{
+  font-size: 15px;
+}
+
+basics{
+  width: 20em;
 }
 
 form{
@@ -78,10 +96,7 @@ h2{
 input{
 	border: 0.5px solid #f3613a;
 	padding: 0.25rem;
-	0 0 2px #f3613a,  /* First shadow: slight blur, same color as text */
-        0 0 5px white, /* Second shadow: larger blur, glow color */
-	0 0 8px white; /* Third shadow: even larger blur, same glow color */
-	margin: 10px;
+	margin: 5px;
 	background-color: black;
 	width: 20rem;
 }
