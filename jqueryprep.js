@@ -12,11 +12,9 @@
 // change Failure Code to user input
 // change Cause Code to user input
 // change Assigned To to user input
-<script>
-  function changeElementText(elementID) {
-    let newText = prompt("Enter new text for " + elementId + ":");
+  function changeElementText(elementId) {
+    let newText = prompt('Enter new text for ${elementId}:');
     if(newText) {
-      $('#' + elementId).text(newText);
+      $('#' + elementId).text(newText.trim());
     }
   }
-</script>
